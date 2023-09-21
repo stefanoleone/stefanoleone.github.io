@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.77933fdf.css",
-    "main.js": "/static/js/main.f5ffb01f.js",
+    "main.js": "/static/js/main.e6d31daf.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
     "static/media/AI4ProductPioneers_logo.png": "/static/media/AI4ProductPioneers_logo.f579bf561a5863b23b87.png",
     "static/media/resume.pdf": "/static/media/resume.9036a081d857914688cd.pdf",
     "static/media/Stefano.png": "/static/media/Stefano.ff2f47268b569efa9a76.png",
     "index.html": "/index.html",
     "main.77933fdf.css.map": "/static/css/main.77933fdf.css.map",
-    "main.f5ffb01f.js.map": "/static/js/main.f5ffb01f.js.map",
+    "main.e6d31daf.js.map": "/static/js/main.e6d31daf.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77933fdf.css",
-    "static/js/main.f5ffb01f.js"
+    "static/js/main.e6d31daf.js"
   ]
 }
