@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.77933fdf.css",
-    "main.js": "/static/js/main.a408897d.js",
+    "main.js": "/static/js/main.d35e756c.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
     "static/media/AI4ProductPioneers_logo.png": "/static/media/AI4ProductPioneers_logo.f579bf561a5863b23b87.png",
     "static/media/StefanoLeoneResume.pdf": "/static/media/StefanoLeoneResume.09c8203613bb96a998ac.pdf",
@@ -9,11 +9,11 @@
     "static/media/AllThingsBlockchain_full-logo_s.png": "/static/media/AllThingsBlockchain_full-logo_s.74b5964217ba3b086cf4.png",
     "index.html": "/index.html",
     "main.77933fdf.css.map": "/static/css/main.77933fdf.css.map",
-    "main.a408897d.js.map": "/static/js/main.a408897d.js.map",
+    "main.d35e756c.js.map": "/static/js/main.d35e756c.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77933fdf.css",
-    "static/js/main.a408897d.js"
+    "static/js/main.d35e756c.js"
   ]
 }
