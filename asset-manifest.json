@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.77933fdf.css",
-    "main.js": "/static/js/main.27d2e2be.js",
+    "main.js": "/static/js/main.687e12cf.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
     "static/media/AI4ProductPioneers_logo.png": "/static/media/AI4ProductPioneers_logo.f579bf561a5863b23b87.png",
-    "static/media/StefanoLeoneResume.pdf": "/static/media/StefanoLeoneResume.6c96ec80d748dfbcd87d.pdf",
+    "static/media/StefanoLeoneResume.pdf": "/static/media/StefanoLeoneResume.4ecc9557ed9753f2d9ee.pdf",
     "static/media/Stefano.png": "/static/media/Stefano.ff2f47268b569efa9a76.png",
     "static/media/AllThingsBlockchain_full-logo_s.png": "/static/media/AllThingsBlockchain_full-logo_s.74b5964217ba3b086cf4.png",
     "index.html": "/index.html",
     "main.77933fdf.css.map": "/static/css/main.77933fdf.css.map",
-    "main.27d2e2be.js.map": "/static/js/main.27d2e2be.js.map",
+    "main.687e12cf.js.map": "/static/js/main.687e12cf.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77933fdf.css",
-    "static/js/main.27d2e2be.js"
+    "static/js/main.687e12cf.js"
   ]
 }
