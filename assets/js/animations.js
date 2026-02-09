@@ -152,18 +152,19 @@
     });
 
     // ========== Parallax Effect on Hero ==========
-    const hero = document.querySelector('.hero');
-
-    if (hero) {
-      window.addEventListener('scroll', function() {
-        const scrolled = window.pageYOffset;
-        const parallaxSpeed = 0.5;
-
-        if (scrolled < window.innerHeight) {
-          hero.style.transform = 'translateY(' + (scrolled * parallaxSpeed) + 'px)';
-        }
-      });
-    }
+    // Disabled to prevent overlay issues with About section
+    // const hero = document.querySelector('.hero');
+    //
+    // if (hero) {
+    //   window.addEventListener('scroll', function() {
+    //     const scrolled = window.pageYOffset;
+    //     const parallaxSpeed = 0.5;
+    //
+    //     if (scrolled < window.innerHeight) {
+    //       hero.style.transform = 'translateY(' + (scrolled * parallaxSpeed) + 'px)';
+    //     }
+    //   });
+    // }
 
     // ========== Performance: Debounce Scroll Events ==========
     function debounce(func, wait) {

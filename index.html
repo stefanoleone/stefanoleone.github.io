@@ -55,7 +55,6 @@
   <header class="header" id="header">
     <div class="header-container">
       <a href="/" class="logo">
-        <img src="/assets/images/logos/atb-logo.png" alt="AllThingsBlockchain Logo">
         <span>Stefano Leone</span>
       </a>
 
@@ -63,16 +62,28 @@
         <ul class="nav">
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
           <li><a href="#newsletter" class="nav-link">Newsletter</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="/assets/stefano-leone-resume.pdf" target="_blank" class="nav-link">Resume</a></li>
         </ul>
 
-        <div class="flex gap-md">
-          <a href="/assets/stefano-leone-resume.pdf" target="_blank" class="btn btn-secondary btn-sm">Resume</a>
-          <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-            <span class="theme-toggle-slider"></span>
-          </button>
-        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg class="theme-icon sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
       </nav>
 
       <button class="nav-mobile btn btn-ghost" id="mobileMenuToggle" aria-label="Toggle menu">
@@ -116,11 +127,6 @@
             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
           </svg>
         </a>
-        <a href="https://github.com/stefanoleone" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-          </svg>
-        </a>
       </div>
     </div>
   </section>
@@ -136,16 +142,18 @@
         <div class="about-text reveal">
           <h2>About Me</h2>
           <p>
-            Hello there! I'm Stefano Leone, a tech enthusiast deeply rooted in the world of AI and Blockchain.
-            Based in Zurich with a history in Milan, I'm shaping the future at IOHK Singapore with our DApp Certification Program.
+            AI Product Manager at Input Output, where I lead developer experience strategy for the Cardano ecosystem,
+            managing a portfolio of 13 security and tooling products with 10M+ USD in on-chain adoption.
           </p>
           <p>
-            Beyond work, I founded the Ethereum Milano Community, uniting over 2,200 blockchain fans. I also curate
-            the 'AI for Product Pioneers' newsletter and created the WatchOut! app loved by smartwatch users globally.
+            I specialize in harmonizing UX design, business acumen, and technology—with a laser focus on AI and Blockchain.
+            From launching the DApp Certification Program to leading AI Product Management initiatives, I build high-assurance
+            systems that scale.
           </p>
           <p>
-            Educated in Milan and further refined at Carnegie Mellon, I'm always learning. Outside tech, I'm passionate
-            about space exploration, sports, and astronomy. Want to chat about the stars, AI, or digital identity? Let's connect!
+            Former CTO at Deloitte's Blockchain Lab and Product Manager at B3i. Founder of Ethereum Milano (2,200+ members),
+            curator of 'AI for Product Pioneers' newsletter, and creator of WatchOut! (40,000+ users). Educated in Milan,
+            refined at Carnegie Mellon. Passionate about space exploration, DeFi, and digital identity.
           </p>
 
           <div class="flex gap-lg" style="margin-top: 2rem;">
@@ -207,6 +215,61 @@
     </div>
   </section>
 
+  <!-- Experience & Mentorship Section -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Experience & Mentorship</h2>
+        <p class="section-subtitle">
+          Contributing to the startup ecosystem and guiding the next generation of entrepreneurs.
+        </p>
+      </div>
+
+      <div class="experience-content reveal">
+        <div class="experience-card">
+          <div class="experience-badge">
+            <img src="/assets/images/badges/startup-geeks-2026.png" alt="Startup Geeks Member 2026 Badge">
+          </div>
+
+          <div class="experience-details">
+            <h3>AI Product Manager Mentor</h3>
+            <h4><a href="https://www.startupgeeks.it/" target="_blank" rel="noopener noreferrer">Startup Geeks</a></h4>
+            <p class="experience-period">2022 - Present</p>
+
+            <p class="experience-description">
+              Mentoring startups and entrepreneurs at the intersection of AI, Blockchain, and product development.
+              Providing strategic guidance on product management, AI/blockchain implementation, go-to-market strategies,
+              and helping founders transform innovative ideas into successful products in the Web3 and AI ecosystem.
+            </p>
+
+            <div class="experience-highlights">
+              <div class="highlight-item">
+                <span class="highlight-icon">🎯</span>
+                <span>Product Strategy & Roadmapping</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">🤖</span>
+                <span>AI Integration & Innovation</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">🔗</span>
+                <span>Blockchain & Web3 Solutions</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">🚀</span>
+                <span>Go-to-Market Execution</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">📈</span>
+                <span>Growth & Scaling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Newsletter Section -->
   <section class="newsletter section" id="newsletter">
     <div class="container">
@@ -253,14 +316,6 @@
               </a>
             </li>
             <li>
-              <a href="https://github.com/stefanoleone" target="_blank" rel="noopener noreferrer" class="contact-link">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-                </svg>
-                <span>View GitHub Profile</span>
-              </a>
-            </li>
-            <li>
               <a href="https://www.linkedin.com/newsletters/7058015512634511361" target="_blank" rel="noopener noreferrer" class="contact-link">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
@@ -302,7 +357,10 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-section">
-          <h3>Stefano Leone</h3>
+          <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+            <img src="/assets/images/logos/atb-logo.png" alt="AllThingsBlockchain Logo" style="height: 40px; width: auto;">
+            <h3 style="margin-bottom: 0;">Stefano Leone</h3>
+          </div>
           <p style="color: var(--color-text-muted);">
             AI & Blockchain Product Manager<br>
             Building the future of decentralized technology.
@@ -314,6 +372,7 @@
           <ul class="footer-links">
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#newsletter">Newsletter</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -324,7 +383,7 @@
           <ul class="footer-links">
             <li><a href="/assets/stefano-leone-resume.pdf" target="_blank">Resume</a></li>
             <li><a href="https://www.linkedin.com/in/stefanoleone" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-            <li><a href="https://github.com/stefanoleone" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.startupgeeks.it/" target="_blank" rel="noopener noreferrer">Startup Geeks</a></li>
           </ul>
         </div>
       </div>

@@ -112,5 +112,5 @@ Deployed on **GitHub Pages**:
 ## 🤝 Contact
 
 - LinkedIn: [stefanoleone](https://www.linkedin.com/in/stefanoleone)
-- GitHub: [stefanoleone](https://github.com/stefanoleone)
 - Newsletter: [AI for Product Pioneers](https://www.linkedin.com/newsletters/7058015512634511361)
+- Mentorship: [Startup Geeks](https://www.startupgeeks.it/)
